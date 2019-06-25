@@ -90,7 +90,8 @@ test-cloud.exe gen-sign-info <apk-signed> <keystorefile> <keystorepass> <keyalia
 ```shell
 mono test-cloud.exe gen-sign-info <apk-signed> <keystorefile> <keystorepass> <keyalias> <keypass> [--dir <directory>]
 ```
-
+> [!NOTE]
+> test-cloud.exe does have support for generating the signing information file upto UITest version 2.2.7. However, from UITest 3.0.0, it's no longer supported.
 * * *
 
 Required arguments:
